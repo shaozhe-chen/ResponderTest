@@ -10,12 +10,21 @@
 
 @implementation CView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.backgroundColor = [UIColor yellowColor];
+    }
+    return self;
 }
-*/
+//重载
+- (void)updateTitle:(NSString *)title{
+    [super updateTitle:@"C"];
+}
 
+//重写描述
++(NSString *)description{
+    return @"我是C";
+}
 @end

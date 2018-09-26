@@ -10,4 +10,6 @@
 
 @interface BaseView : UIView
 
+- (void)updateTitle:(NSString *)title;
+
 @end

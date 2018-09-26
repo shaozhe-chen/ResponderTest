@@ -15,6 +15,13 @@
 		3511C5E3215B5F8000978CB5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C5E2215B5F8000978CB5 /* main.m */; };
 		3511C5ED215B5F8000978CB5 /* HitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C5EC215B5F8000978CB5 /* HitTestTests.m */; };
 		3511C5F8215B5F8000978CB5 /* HitTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C5F7215B5F8000978CB5 /* HitTestUITests.m */; };
+		3511C608215B606400978CB5 /* AView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C607215B606400978CB5 /* AView.m */; };
+		3511C60B215B606C00978CB5 /* BView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C60A215B606C00978CB5 /* BView.m */; };
+		3511C60E215B607700978CB5 /* CView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C60D215B607700978CB5 /* CView.m */; };
+		3511C611215B608100978CB5 /* DView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C610215B608100978CB5 /* DView.m */; };
+		3511C614215B615600978CB5 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C613215B615600978CB5 /* BaseView.m */; };
+		3511C61B215B7B9100978CB5 /* UIResponder+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C61A215B7B9100978CB5 /* UIResponder+Category.m */; };
+		3511C61E215B7DD500978CB5 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 3511C61D215B7DD500978CB5 /* UIView+Category.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		3511C5F3215B5F8000978CB5 /* HitTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HitTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3511C5F7215B5F8000978CB5 /* HitTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HitTestUITests.m; sourceTree = "<group>"; };
 		3511C5F9215B5F8000978CB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3511C606215B606400978CB5 /* AView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AView.h; sourceTree = "<group>"; };
+		3511C607215B606400978CB5 /* AView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AView.m; sourceTree = "<group>"; };
+		3511C609215B606C00978CB5 /* BView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BView.h; sourceTree = "<group>"; };
+		3511C60A215B606C00978CB5 /* BView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BView.m; sourceTree = "<group>"; };
+		3511C60C215B607700978CB5 /* CView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CView.h; sourceTree = "<group>"; };
+		3511C60D215B607700978CB5 /* CView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CView.m; sourceTree = "<group>"; };
+		3511C60F215B608100978CB5 /* DView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DView.h; sourceTree = "<group>"; };
+		3511C610215B608100978CB5 /* DView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DView.m; sourceTree = "<group>"; };
+		3511C612215B615600978CB5 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		3511C613215B615600978CB5 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		3511C619215B7B9100978CB5 /* UIResponder+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIResponder+Category.h"; sourceTree = "<group>"; };
+		3511C61A215B7B9100978CB5 /* UIResponder+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+Category.m"; sourceTree = "<group>"; };
+		3511C61C215B7DD500978CB5 /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		3511C61D215B7DD500978CB5 /* UIView+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +122,8 @@
 		3511C5D2215B5F7F00978CB5 /* HitTest */ = {
 			isa = PBXGroup;
 			children = (
+				3511C615215B768E00978CB5 /* Category */,
+				3511C605215B605200978CB5 /* View */,
 				3511C5D3215B5F7F00978CB5 /* AppDelegate.h */,
 				3511C5D4215B5F7F00978CB5 /* AppDelegate.m */,
 				3511C5D6215B5F7F00978CB5 /* ViewController.h */,
@@ -130,6 +153,34 @@
 				3511C5F9215B5F8000978CB5 /* Info.plist */,
 			);
 			path = HitTestUITests;
+			sourceTree = "<group>";
+		};
+		3511C605215B605200978CB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3511C606215B606400978CB5 /* AView.h */,
+				3511C607215B606400978CB5 /* AView.m */,
+				3511C609215B606C00978CB5 /* BView.h */,
+				3511C60A215B606C00978CB5 /* BView.m */,
+				3511C60C215B607700978CB5 /* CView.h */,
+				3511C60D215B607700978CB5 /* CView.m */,
+				3511C60F215B608100978CB5 /* DView.h */,
+				3511C610215B608100978CB5 /* DView.m */,
+				3511C612215B615600978CB5 /* BaseView.h */,
+				3511C613215B615600978CB5 /* BaseView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3511C615215B768E00978CB5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3511C61C215B7DD500978CB5 /* UIView+Category.h */,
+				3511C61D215B7DD500978CB5 /* UIView+Category.m */,
+				3511C619215B7B9100978CB5 /* UIResponder+Category.h */,
+				3511C61A215B7B9100978CB5 /* UIResponder+Category.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +313,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3511C60E215B607700978CB5 /* CView.m in Sources */,
 				3511C5D8215B5F7F00978CB5 /* ViewController.m in Sources */,
 				3511C5E3215B5F8000978CB5 /* main.m in Sources */,
+				3511C614215B615600978CB5 /* BaseView.m in Sources */,
+				3511C608215B606400978CB5 /* AView.m in Sources */,
 				3511C5D5215B5F7F00978CB5 /* AppDelegate.m in Sources */,
+				3511C611215B608100978CB5 /* DView.m in Sources */,
+				3511C61B215B7B9100978CB5 /* UIResponder+Category.m in Sources */,
+				3511C61E215B7DD500978CB5 /* UIView+Category.m in Sources */,
+				3511C60B215B606C00978CB5 /* BView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

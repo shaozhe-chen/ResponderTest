@@ -6,8 +6,8 @@
 //  Copyright © 2018年 duoyi. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseView.h"
 
-@interface BView : UIView
+@interface BView : BaseView
 
 @end
